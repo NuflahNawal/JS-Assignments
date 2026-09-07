@@ -1,40 +1,40 @@
 // QUESTION 1
 
-// var city = prompt ("Write a city name:")
-// if (city === "karachi") {
-//     alert ("Welcome to the city of lights!")
-// } else if (city) {
-//     alert ("Welcome!")
-// }
+var city = prompt ("Write a city name:")
+if (city === "karachi") {
+    alert ("Welcome to the city of lights!")
+} else if (city) {
+    alert ("Welcome!")
+}
 
 // QUESTION 2
 
-// var Gender = prompt ("What is you gender?")
-// if (Gender === "male") {
-//     alert ("Good Morning Sir!")
-// } else if (Gender === "female") {
-//     alert ("Good Morning Ma'am!")
-// }
+var Gender = prompt ("What is you gender?")
+if (Gender === "male") {
+    alert ("Good Morning Sir!")
+} else if (Gender === "female") {
+    alert ("Good Morning Ma'am!")
+}
 
 // QUESTION 3
 
-// var traffic = prompt ("write a color name to understand traffic light")
-// if (traffic === "Red") {
-//     alert ("Must Stop!")
-// } else if (traffic === "Yellow") {
-//     alert ("Ready to move!")
-// } else if (traffic === "Green") {
-//     alert ("Move now!")
-// }
+var traffic = prompt ("write a color name to understand traffic light")
+if (traffic === "Red") {
+    alert ("Must Stop!")
+} else if (traffic === "Yellow") {
+    alert ("Ready to move!")
+} else if (traffic === "Green") {
+    alert ("Move now!")
+}
 
 // QUESTION 4
 
-// var fuel = prompt ("Tell the remaining car fuel (in litres)")
-// if (fuel <= 0.25) {
-//     alert ("Please refill the fuel in your car")
-// } else {
-//     alert ("You have enough Fuel")
-// }
+var fuel = prompt ("Tell the remaining car fuel (in litres)")
+if (fuel <= 0.25) {
+    alert ("Please refill the fuel in your car")
+} else {
+    alert ("You have enough Fuel")
+}
 
 // QUESTION 5
 
