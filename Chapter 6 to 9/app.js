@@ -42,7 +42,7 @@ if (username) {
 
 var userInput = prompt("Enter a number for multiplication table:");
 
-var num = parseInt(userInput);
+var num = (userInput);
 
 document.write("<h2>Multiplication Table of " + num + "</h2>");
 
@@ -59,9 +59,9 @@ var subject3 = prompt ("Enter third subject name:")
 
 var TMPS = 100;
 
-var marks1 = parseFloat(prompt("Enter obtained marks for " + subject1 + ":"));
-var marks2 = parseFloat(prompt("Enter obtained marks for " + subject2 + ":"));
-var marks3 = parseFloat(prompt("Enter obtained marks for " + subject3 + ":"));
+var marks1 = prompt("Enter obtained marks for " + subject1 + ":");
+var marks2 = prompt("Enter obtained marks for " + subject2 + ":");
+var marks3 = prompt("Enter obtained marks for " + subject3 + ":")
 
 
 var totalObtained = marks1 + marks2 + marks3;
@@ -77,11 +77,11 @@ document.write("<table border='1' cellspacing='0' cellpadding='8'>");
 
 document.write("<tr><th> Subject </th><th> Total Marks </th><th> Obtained Marks </th><th> Percentage </th></tr>");
 
-document.write("<tr><td>" + subject1 + "</td><td>" + TMPS + "</td><td>" + marks1 + "</td><td>" + percentage1.toFixed(2) + "%</td></tr>");
+document.write("<tr><td>" + subject1 + "</td><td>" + TMPS + "</td><td>" + marks1 + "</td><td>" + percentage1 + "%</td></tr>");
 
-document.write("<tr><td>" + subject2 + "</td><td>" + TMPS + "</td><td>" + marks2 + "</td><td>" + percentage2.toFixed(2) + "%</td></tr>");
+document.write("<tr><td>" + subject2 + "</td><td>" + TMPS + "</td><td>" + marks2 + "</td><td>" + percentage2 + "%</td></tr>");
 
-document.write("<tr><td>" + subject3 + "</td><td>" + TMPS + "</td><td>" + marks3 + "</td><td>" + percentage3.toFixed(2) + "%</td></tr>");
+document.write("<tr><td>" + subject3 + "</td><td>" + TMPS + "</td><td>" + marks3 + "</td><td>" + percentage3 + "%</td></tr>");
 
 
-document.write("<tr><th> Total </th><th>" + grandeTotal + "</th><th>" + totalObtained + "</th><th>" + overallPercentage.toFixed(2) + "%</th></tr>");
+document.write("<tr><th> Total </th><th>" + grandeTotal + "</th><th>" + totalObtained + "</th><th>" + overallPercentage + "%</th></tr>");
