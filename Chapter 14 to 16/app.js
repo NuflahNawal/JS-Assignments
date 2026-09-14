@@ -11,8 +11,12 @@ var developer = ["Faiza" , "Nuflah" , "Unzila" + "<br>"]
 document.write (developer)
 
 // QUESTION 4
+<<<<<<< HEAD
 var number = [20000 , 10000 , 50000 + "<br>"]
 document.write (number)
+=======
+var number = [20000 , 10000 , 50000]
+>>>>>>> dd299c3 (JS)
 
 // QUESTION 5
 var boolaen = [true , false , true, false + "<br>"]
@@ -81,13 +85,70 @@ document.write (`<b> ${studentScore} <b> <br><br>`)
 
 // QUESTION 11
 var cities = [ " Karachi " , " Lahore " , " Islamabad " , " Peshawar " , " Quetta " ]
-document.write (`Cities: ${cities} <br>`)
+document.write (`<h2> Cities: </h2> <br> ${cities} <br>`)
 
-var selectedCities = [ " Islamabad " , " Peshawar " , " Quetta " ]
-document.write (`Selected Cities: ${selectedCities} <br><br>`)
+var cities = cities.slice(1,4)
+document.write("<h2> Selected cities list </h2>"  + "<br>" + cities + "<br> <br>")
 
 // QUESTION 12
-var arr = ["This ", " is ", " my ", " cat"]; 
+var arr = ["This ", " is ", " my ", " cat" + "<br> <br>"]; 
 var singleString = arr.join("");
 
 document.write (`<h3> ${singleString} </h3>`)
+
+// QUESTION 13
+var devices = [];
+
+devices.push(" keyboard ");
+devices.push(" mouse ");
+devices.push(" printer ");
+devices.push(" monitor ");
+
+document.write(" <h2> Devices: </h2>");
+document.write(devices.join(","));
+document.write(""); 
+
+while (devices.length > 0) {
+  var item = devices.shift();
+  document.write("<h2> Out: </h2>");
+  document.write(item);
+}
+
+
+// QUESTION 14
+var devices = [];
+
+devices.push(" keyboard ");
+devices.push(" mouse ");
+devices.push(" printer ");
+devices.push(" monitor ");
+
+document.write(" <h2> Devices: </h2>");
+document.write(devices.join(","));
+document.write(""); 
+
+while (devices.length > 0) {
+  var item = devices.pop();
+  document.write("<h2> Out: </h2>");
+  document.write(item);
+}
+
+// QUESTION 15
+var manufacturers = ["Apple", "Samsung", "Xiaomi", "Vivo", "Realme", "Infinix"];
+
+var option
+document.write(`
+    <form>
+        <h1>Mobile Companies</h1>
+        <strong><label for="Select Mobile Companies*">Select Mobile Companies*</label></strong> <br> <br>
+        <select name="Select Mobile Companies">
+            <option value="" disabled selected>Select Company</option>
+            <option value="Samsung">${manufacturers[0]}</option>
+            <option value="Iphone">${manufacturers[1]}</option>
+            <option value="Xiaomi">${manufacturers[2]}</option>
+            <option value="Vivo">${manufacturers[3]}</option>
+            <option value="Realme">${manufacturers[4]}</option>
+            <option value="Infinix">${manufacturers[5]}</option>
+        </select>
+    </form>`);
+    
