@@ -1,30 +1,20 @@
 // QUESTION 1
 var studentNameForFuture = []
-document.write (studentNameForFuture)
 
 // QUESTION 2
-var studentNameForFuture = new Array ();
-document.write (studentNameForFuture)
+var array = []
 
 // QUESTION 3
-var developer = ["Faiza" , "Nuflah" , "Unzila" + "<br>"]
-document.write (developer)
+var developer = ["Faiza" , "Nuflah" , "Unzila"]
 
 // QUESTION 4
-<<<<<<< HEAD
-var number = [20000 , 10000 , 50000 + "<br>"]
-document.write (number)
-=======
 var number = [20000 , 10000 , 50000]
->>>>>>> dd299c3 (JS)
 
 // QUESTION 5
-var boolaen = [true , false , true, false + "<br>"]
-document.write (boolaen)
+var boolaen = ["Yes" , "No" , "true", "fasle"]
 
 // QUESTION 6
-var mixed = ["Nuflah", 20 , null , true + "<br>"]
-document.write(typeof mixed);
+var mixed = ["Nuflah", 20 , "No" , "True"]
 
 // QUESTION 7
 var qualifications = ["SSC" , "HSC" , "BCS" , "BS" , "BCOM" , "MS" , "M.Phil" , "PHD"]
