@@ -50,3 +50,30 @@ document.write("<br>" + i +  "K" )
 }
 
 // QUESTION 7
+var arr = ["cake" , "apple pie" , "cookie" , "chips" , "patties"]
+
+var user = prompt ("What do you want to order?")
+
+var flag = false 
+for (var i = 0; i <arr.length; i++){
+    if (user == arr[i]){
+        alert (user + " is avaliable in our bakery")
+        flag = true
+    }}
+if (flag == false) {
+    alert ("We are sorry " + user + " isn't avaliable in our bakery")
+}
+
+// QUESTION 8
+var arr = [24 , 53 , 78 , 91 , 12]
+for (var i = 0; i <arr.length; i++)
+
+
+// QUESTION 9
+
+
+
+// QUESTION 10
+for( var i=5; i<=100; i+=5){
+    document.write("<br>" + i)
+}
