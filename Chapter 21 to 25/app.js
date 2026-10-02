@@ -132,42 +132,36 @@ document.write (`Type: ${typeof(number)} <br><br>`)
 // }
 
 // QUESTION 15:
-// var password = prompt ("Enter your password!      a) Password must contain contain alphabets and numbers      b) It should not start with a number     c) It must at least 6 characters long")
-// var alpha = false
-// var num = false
-// var char = true
-// var isLong = password.length >= 6;
+var password = prompt ("Enter your passward")
+var hasAlpha = false
+var hasNum = false
+var startWithNumber = false
 
-// var firstChar = password.charCodeAt(0)
-// if (firstChar >= 48 && firstChar <= 57){
-//     char =false
-// }
+if (password.length < 6){
+    alert ("It must be atleast 6 characters long")
+}else{
+    for (var i = 0; i < password.length; i++){
+        var code = password.charCodeAt(i)
+        if ((code >= 65 && code <= 90) || (code >= 97 && code <= 122)){
+            hasAlpha = true
+        }
+        if (code >= 48 && code <= 67){
+            hasNum = true
+        }
+        if (i === 0 &&code >= 48 && code <= 67){
+            startWithNumber = true
+        }
+    }
+}
 
-// for (var i = 0; i < password.length; i++){
-//     var code = password.charCodeAt(i);
-
-//     if ((code >= 65 && code <= 90) ||(code >= 97 && code <= 122)){
-//         alpha = true;
-//     }else if (code >= 48 && code <= 57){
-//         num = true
-//     }
-// }
-
-// if (isLong && firstChar && alpha && num){
-//     document.write ("Entered password: " + password + "<br>")
-//     alert ("Password is valid!")
-// }else {
-//     document.write ("Entered password: " + password + "<br>")
-//     if (!firstChar){
-//         document.write ("Password can not begin with number <br>")
-//     }
-//     if (!isLong){
-//         document.write ("Password must be atleast 6 character long  <br>")
-//     }
-//     if (!alpha || num){
-//         document.write ("Password must not contain both alphabat and number  <br>")
-//     }
-//     alert ("Please enter a valid password.")
-// }
+if (!hasAlpha){
+    alert ("It must contain alphabats!")
+}
+if (!hasNum){
+    alert ("It must contain number!")
+}
+if (startWithNumber){
+    alert ("It must not start with number!")
+}
 
 // QUESTION 16:
