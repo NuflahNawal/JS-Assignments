@@ -41,7 +41,32 @@ var today = new Date ();
 var milli = Math.floor(today.getTime()/ 60000);
 
 document.write (`Current Date: ${today} <br>`);
-document.write (`Milliseconds since january 1, 1970: ${milli} <br>`);
+document.write (`Milliseconds since january 1, 1970: ${milli} <br><br>`);
 
 
 // QUESTION 7:
+// var currentHour = new Date ().getHours ();
+// if (currentHour < 12){
+//     alert ("It's AM")
+// }else {
+//     alert ("It's PM")
+// }
+
+
+// QUESTION 8:
+var laterDate = new Date (2020, 11, 31)
+document.write (`Later Date: ${laterDate} <br><br>`)
+
+
+// QUESTTION 9:
+// var ramdan = new Date (2015, 5, 18);
+// var today = new Date ();
+
+// var diffInMilliseconds = today.getTime() - ramdan.getTime();
+
+// var daysPast = Math.floor(diffInMilliseconds / (1000 * 60 *  60 * 24));
+
+// alert (`${daysPast} days have passed since 1st Ramadan (June 18, 2015)`)
+
+
+// QUESTION 10:
