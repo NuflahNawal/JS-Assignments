@@ -26,3 +26,20 @@ date();
 // sum (num1 , num2 , num3);
 
  
+// QUESTION 10:
+function palindrome(str){
+    var reverse = ""
+    for(var i= str.length-1; i>=0; i--){
+        // console.log(str[i]);
+        reverse =reverse+str[i] //"ar"+m
+    }
+    console.log(str, reverse);
+    if(reverse===str){
+        console.log(str+" is a palindrome word");
+    }else{
+        console.log(str+" is not a palindrome word");
+    
+    }
+    }
+    var string = prompt("Enter a word").toLowerCase() //Umra
+    palindrome(string)
