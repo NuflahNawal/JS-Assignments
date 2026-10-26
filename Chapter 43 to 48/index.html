@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- QUESTION 1: -->
+    <a href="JavaScript:void(0)" onClick="greetUser('Sana')">Click me.</a>
+
+    <!-- QUESTION 2: -->
+    <h1>Mobile Phones lookup</h1>
+
+    <figure onclick="showThanks(' I Phone 17 pro max ')">
+        <img class="iphone" src="img/i phone.jpg" alt="I phone">
+        <figcaption>I Phone 17 Pro Max</figcaption>
+    </figure>
+
+    <figure onclick="showThanks(' Oppo A6k ')">
+        <img src="img/oppo2.webp" alt="Oppo">
+        <figcaption>Oppo A6k</figcaption>
+    </figure>
+
+    <figure onclick="showThanks(' Samsung Galaxy S26 ')"> 
+        <img class="samsung" src="img/samsung3.jpg" alt="Samsung">
+        <figcaption>Samsung Galaxy S26</figcaption>
+    </figure>
+
+    <figure onclick="showThanks(' Xiaomi Redmi Note 17 pro ')">
+        <img src="img/xiaomi.jpg" alt="Xiaomi">
+        <figcaption>Xiaomi Redmi Note 17 pro</figcaption>
+    </figure>
+    <br><br><br>
+
+
+    <!-- QUESTION 3: -->
+    <table border="1">
+        <tr>
+            <td>1</td>
+            <td>Jade</td>
+            <td>9</td>
+            <td><button onclick="deleteBox(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Jerry</td>
+            <td>8</td>
+            <td><button onclick="deleteBox(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Nuflah</td>
+            <td>10</td>
+            <td><button onclick="deleteBox(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Quichyi</td>
+            <td>10</td>
+            <td><button onclick="deleteBox(this)">Dalete</button></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Izabal</td>
+            <td>10</td>
+            <td><button onclick="deleteBox(this)">Delete</button></td>
+        </tr>
+    </table>
+    <br><br><br>
+
+
+    <!-- QUESTION 4: -->
+    <img src="https://www.partoelectric.com/en/wp-content/uploads/2020/04/reshtei2.jpg"     
+    alt="Light bulb"
+     onmouseout="src='https://www.partoelectric.com/en/wp-content/uploads/2020/04/reshtei2.jpg'"alt="blub off" onmouseover="src = 'https://png.pngtree.com/png-clipart/20240321/original/pngtree-light-bulb-isolated-on-white-or-transparent-background-cutout-png-image_14646805.png' " alt="bluboon">
+    <br><br>
+
+    
+    <!-- QUESTION 5: -->
+    <button class="btn" onclick="increment()">Increase</button>
+    <span class="span" id="number">0</span>
+    <button class="btn" onclick="decrement()">Decrease</button>
+    <script src="app.js"></script>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>

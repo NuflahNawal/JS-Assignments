@@ -1,0 +1,41 @@
+img {
+    width: 310px;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+        
+.iphone {
+    width: 215px;
+}
+        
+.samsung {
+    width: 275px;
+}
+
+figure {
+    display: inline-block;
+    text-align: center;
+    margin: 6px;
+    cursor: pointer;
+}
+
+table {
+    padding: 10px;
+}
+tr {
+    padding: 10px;
+}
+td {
+    padding: 10px;
+}
+
+.btn {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.span {
+    padding: 5px;
+    font-size: 22px;
+}
